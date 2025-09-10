@@ -38,4 +38,27 @@ livro = {"titulo": "Kimetsu no yaiba", "autor": "Koyoharu Gotouge", "estoque": 5
 livro["estoque"] += 10
 livro["preco"] = "R$89,90"
 
-print(livro)"""
+print(f"{livro}\n")
+
+#Exercício 8
+aluno = {"nome": "Mariana", "idade": 17, "curso": "Programação"}
+aluno["notas"] = [8.5, 9.0, 7.5]
+aluno["curso"] = "Engenharia de Software"
+
+print(f"{aluno}\n")
+
+#Exercício 9
+carrinho_item = {"produto": "Camiseta", "preco_unitario": 49.90, "quantidade": 2}
+carrinho_item["quantidade"] = 3
+total = carrinho_item["preco_unitario"] * carrinho_item["quantidade"]
+
+carrinho_item["total_item"] = total
+
+print(f"{carrinho_item}\n")
+
+#Exercício 10
+frutas = {"maca": 3.50, "banana": 2.00, "laranja": 4.00}
+frutas["maca"] = 3.80
+frutas["uva"] = 6.00
+
+print(f"{frutas}")"""
